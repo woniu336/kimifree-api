@@ -4,4 +4,4 @@ ENV TZ=Asia/Shanghai
 
 EXPOSE 8000
 
-CMD ["--init"]
+CMD ["node", "server.js"]
